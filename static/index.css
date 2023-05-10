@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div.whole{
+  height: 100vh;
+  margin: 1% auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div.whole form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color:antiquewhite;
+  width: 50%;
+  height: 50vh;
+}
+div.whole form > *{
+  text-align: center;
+  padding: 1%;
+  margin: 1%;
+}
